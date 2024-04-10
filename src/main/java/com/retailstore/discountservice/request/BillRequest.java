@@ -1,0 +1,1 @@
+package com.retailstore.discountservice.request;import com.retailstore.discountservice.model.Item;import com.retailstore.discountservice.model.User;import lombok.*;import java.util.List;@Getter@Setter@NoArgsConstructor@AllArgsConstructorpublic class BillRequest {    private User user;    private List<Item> items;}

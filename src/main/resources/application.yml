@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: discount-service
+
+  datasource:
+    url: jdbc:h2:mem:testdb;NON_KEYWORDS=user
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    defer-datasource-initialization: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

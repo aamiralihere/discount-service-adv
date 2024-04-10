@@ -1,0 +1,1 @@
+package com.retailstore.discountservice.constant;public enum ItemType {    GROCERY,    ELECTRONIC,    COSMETIC}

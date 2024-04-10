@@ -1,0 +1,1 @@
+package com.retailstore.discountservice.repository;import com.retailstore.discountservice.model.Item;import com.retailstore.discountservice.model.User;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface ItemRepository extends JpaRepository<Item, Long> {}

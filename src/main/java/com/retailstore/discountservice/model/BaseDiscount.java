@@ -1,0 +1,1 @@
+package com.retailstore.discountservice.model;public interface BaseDiscount {    Double applyDiscount(Double amount, Discount discount);}
